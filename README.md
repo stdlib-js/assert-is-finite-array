@@ -138,6 +138,23 @@ bool = isFiniteArray( [] );
 
 <!-- /.examples -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/assert/is-finite`][@stdlib/assert/is-finite]: test if a value is a finite number.
+-   [`@stdlib/assert/is-infinite`][@stdlib/assert/is-infinite]: test if a value is an infinite number.
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 
 <section class="main-repo" >
 
@@ -192,6 +209,14 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [stdlib-authors]: https://github.com/stdlib-js/stdlib/graphs/contributors
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/assert-is-finite-array/main/LICENSE
+
+<!-- <related-links> -->
+
+[@stdlib/assert/is-finite]: https://github.com/stdlib-js/assert-is-finite
+
+[@stdlib/assert/is-infinite]: https://github.com/stdlib-js/assert-is-infinite
+
+<!-- </related-links> -->
 
 </section>
 
