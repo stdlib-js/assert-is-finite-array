@@ -24,20 +24,30 @@ limitations under the License.
 
 > Test if a value is an array-like object containing only finite numbers.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/assert-is-finite-array
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import isFiniteArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-finite-array@deno/mod.js';
-```
-
-You can also import the following named exports from the package:
-
-```javascript
-import { objects, primitives } from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-finite-array@deno/mod.js';
+var isFiniteArray = require( '@stdlib/assert-is-finite-array' );
 ```
 
 #### isFiniteArray( value )
@@ -47,7 +57,7 @@ Tests if a `value` is an array-like object containing **only** finite `numbers`.
 <!-- eslint-disable no-new-wrappers -->
 
 ```javascript
-import Number from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-ctor@deno/mod.js';
+var Number = require( '@stdlib/number-ctor' );
 
 var bool = isFiniteArray( [ -3.0, new Number(3.0) ] );
 // returns true
@@ -66,7 +76,7 @@ Tests if a `value` is an array-like object containing **only** primitive finite 
 <!-- eslint-disable no-new-wrappers -->
 
 ```javascript
-import Number from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-ctor@deno/mod.js';
+var Number = require( '@stdlib/number-ctor' );
 
 var bool = isFiniteArray.primitives( [ -1.0, 0.0, 4.5 ] );
 // returns true
@@ -85,7 +95,7 @@ Tests if a `value` is an array-like object containing **only** `Number` objects 
 <!-- eslint-disable no-new-wrappers -->
 
 ```javascript
-import Number from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-ctor@deno/mod.js';
+var Number = require( '@stdlib/number-ctor' );
 
 var bool = isFiniteArray.objects( [ new Number(-1.0), new Number(2.0) ] );
 // returns true
@@ -110,8 +120,8 @@ bool = isFiniteArray.objects( [ -3.0, new Number(1.0) ] );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import Number from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-ctor@deno/mod.js';
-import isFiniteArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-finite-array@deno/mod.js';
+var Number = require( '@stdlib/number-ctor' );
+var isFiniteArray = require( '@stdlib/assert-is-finite-array' );
 
 var bool = isFiniteArray( [ -5.0, 0.0, 2.0, 5.0 ] );
 // returns true
@@ -160,7 +170,7 @@ bool = isFiniteArray( [] );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -177,7 +187,7 @@ See [LICENSE][stdlib-license].
 
 ## Copyright
 
-Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
+Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 </section>
 
@@ -222,9 +232,9 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/assert/is-finite]: https://github.com/stdlib-js/assert-is-finite/tree/deno
+[@stdlib/assert/is-finite]: https://github.com/stdlib-js/assert-is-finite
 
-[@stdlib/assert/is-infinite]: https://github.com/stdlib-js/assert-is-infinite/tree/deno
+[@stdlib/assert/is-infinite]: https://github.com/stdlib-js/assert-is-infinite
 
 <!-- </related-links> -->
 
