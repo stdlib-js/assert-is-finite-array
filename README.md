@@ -154,8 +154,8 @@ bool = isFiniteArray( [] );
 
 ## See Also
 
--   <span class="package-name">[`@stdlib/assert/is-finite`][@stdlib/assert/is-finite]</span><span class="delimiter">: </span><span class="description">test if a value is a finite number.</span>
--   <span class="package-name">[`@stdlib/assert/is-infinite`][@stdlib/assert/is-infinite]</span><span class="delimiter">: </span><span class="description">test if a value is an infinite number.</span>
+-   <span class="package-name">[`@stdlib/assert-is-finite`][@stdlib/assert/is-finite]</span><span class="delimiter">: </span><span class="description">test if a value is a finite number.</span>
+-   <span class="package-name">[`@stdlib/assert-is-infinite`][@stdlib/assert/is-infinite]</span><span class="delimiter">: </span><span class="description">test if a value is an infinite number.</span>
 
 </section>
 
