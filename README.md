@@ -42,13 +42,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isFiniteArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-finite-array@deno/mod.js';
+import isFiniteArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-finite-array@v0.2.1-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { objects, primitives } from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-finite-array@deno/mod.js';
+import { objects, primitives } from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-finite-array@v0.2.1-deno/mod.js';
 ```
 
 #### isFiniteArray( value )
@@ -122,7 +122,7 @@ bool = isFiniteArray.objects( [ -3.0, new Number(1.0) ] );
 
 ```javascript
 import Number from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-ctor@deno/mod.js';
-import isFiniteArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-finite-array@deno/mod.js';
+import isFiniteArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-finite-array@v0.2.1-deno/mod.js';
 
 var bool = isFiniteArray( [ -5.0, 0.0, 2.0, 5.0 ] );
 // returns true
