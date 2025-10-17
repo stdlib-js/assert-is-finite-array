@@ -4,15 +4,15 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-06-30)
+## Unreleased (2025-10-17)
 
 <section class="issues">
 
 ### Closed Issues
 
-This release closes the following issue:
+A total of 2 issues were closed in this release:
 
-[#7199](https://github.com/stdlib-js/stdlib/issues/7199)
+[#7199](https://github.com/stdlib-js/stdlib/issues/7199), [#8244](https://github.com/stdlib-js/stdlib/issues/8244)
 
 </section>
 
@@ -24,6 +24,8 @@ This release closes the following issue:
 
 <details>
 
+-   [`61dddeb`](https://github.com/stdlib-js/stdlib/commit/61dddeb7d3bddb33aa7d60fb692baf43ec8f462d) - **chore:** remove unused ESLint directives from `@stdlib/assert` examples [(#8248)](https:-/github.com/stdlib-js/stdlib/pull/8248) _(by youzi-forge)_
+-   [`11581aa`](https://github.com/stdlib-js/stdlib/commit/11581aaca8c3cb824cbb92c0c0f80e76890bdb20) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
 -   [`d40eeed`](https://github.com/stdlib-js/stdlib/commit/d40eeedd3e34280593e10be51238e0d80cf2a7cf) - **chore:** fix EditorConfig lint errors [(#7205)](https://github.com/stdlib-js/stdlib/pull/7205) _(by Deepak Singh)_
 
 </details>
@@ -36,9 +38,11 @@ This release closes the following issue:
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
 -   Deepak Singh
+-   Philipp Burckhardt
+-   youzi-forge
 
 </section>
 
